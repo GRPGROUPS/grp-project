@@ -34,10 +34,10 @@ const Footer = () => {
       <div className="footer-section">
         <h3>ADDRESS</h3>
         <p>GRP Groups Info Park</p>
-        <p>20/97, </p>
-        <p>KP Road,</p>
-        <p>Opp to SIMCO, Nagercoil;</p>
-        <p>Pincode: 629003.</p>
+        <p>20/97,Therimelvilai </p>
+        <p>Eathamozhi,</p>
+        <p>Nagercoil;</p>
+        <p>Pincode: 629501.</p>
       </div>
       <div className="footer-section social-media">
         <h3>FOLLOW US</h3>
