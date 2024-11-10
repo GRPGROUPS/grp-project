@@ -1,0 +1,667 @@
+/* Premium Navbar Styles */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background: linear-gradient(45deg, #000000, #010205, #283d6d, #36456b);
+  border-bottom: 2px solid #d4af37; /* Gold accent */
+}
+
+.navbar-title {
+  color: #f0e6d6; /* Soft gold */
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar-links li {
+  display: inline;
+}
+
+.navbar-links a {
+  color: #f0e6d6;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.navbar-links a:hover {
+  color: #d4af37; /* Gold hover effect */
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #ececec; /* Light neutral background */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Headers */
+h2 {
+  text-align: center;
+  font-family: 'Playfair Display', serif;
+  color: #2e3a59;
+  margin-bottom: 20px;
+}
+
+/* Contact Info Box */
+.contact-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.info-box {
+  width: 45%;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.icon {
+  font-size: 24px;
+  color: #b58900; /* Gold */
+  margin-right: 15px;
+}
+
+h4 {
+  font-family: 'Merriweather', serif;
+  color: #2e3a59;
+  margin: 0;
+  font-size: 20px;
+}
+
+p {
+  color: #050303;
+  margin: 5px 0 0;
+}
+
+/* Form */
+input, textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #c5c5c5;
+  border-radius: 5px;
+  font-family: 'Poppins', sans-serif;
+}
+
+textarea {
+  resize: vertical;
+  height: 120px;
+}
+
+.btn-submit {
+  background-color: #8a6d3b; /* Rich bronze color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background-color: #705d33; /* Darker bronze */
+}
+
+/* Premium Footer */
+
+.footer {
+  background: linear-gradient(45deg, #000000, #010205, #283d6d, #36456b);
+  color: #d4af37; /* Gold text */
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+  flex: 1;
+  margin-right: 20px;
+  min-width: 220px;
+}
+
+.footer h3 {
+  font-family: 'Merriweather', serif;
+  margin-bottom: 15px;
+}
+
+.footer p {
+  font-family: 'Merriweather', serif;
+  margin-bottom: 15px;
+  color: #d4af37;
+}
+
+.footer ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.footer ul li {
+  margin-bottom: 10px;
+}
+
+.footer-social a {
+  color: #d4af37; /* Gold */
+  font-size: 28px;
+  text-decoration: none;
+  transition: transform 0.2s, color 0.3s; /* Added transition for color */
+}
+
+.footer-social a:hover {
+  transform: scale(1.15);
+  color: #f0e6d6; /* Change color on hover */
+}
+
+.footer-bottom {
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+  font-size: 14px;
+  color: #b5b5b5;
+}
+
+/* Change color for all footer text on hover */
+.footer:hover {
+  color: #f0e6d6; /* Change footer text color on hover */
+}
+
+.footer:hover .footer-section h3,
+.footer:hover .footer-section p {
+  color: #f0e6d6; /* Change section headers and paragraph color on hover */
+}
+
+
+
+
+.services-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.individual-services {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.service-card {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 10px;
+  flex: 1 1 calc(33.333% - 20px); /* Adjust based on how many cards you want in a row */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.cta-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.cta-button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color:#d4af37;
+}
+.footer-section {
+  margin: 5px;
+}
+
+.social-icons {
+  display: flex;
+  gap: 15px; /* Space between icons */
+}
+
+.social-icons a {
+  color:#d4af37; /* Icon color */
+  text-decoration: none; /* Remove underline */
+}
+
+.social-icons a:hover {
+  color: white /* Change color on hover */
+}
+
+/*servic*/
+.services-container {
+  padding: 20px;
+  max-width: 1800px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.individual-services {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center; /* Center the cards horizontally */
+}
+
+.service-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 8px;
+  width: 100%;
+  max-width: 350px;
+  text-align: center;
+  transition: box-shadow 0.3s; /* Smooth transition for the shadow */
+  cursor: pointer; /* Change the cursor to indicate it's clickable */
+}
+
+.service-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+/* Add shadow effect when the card is clicked */
+.service-card:active {
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Shadow effect on click */
+}
+
+.cta-container {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #f2f2f2;
+  border-radius: 8px;
+}
+.cta-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.cta-button:hover {
+  background-color: #0056b3;
+}
+
+.services-container h1 {
+  text-align: center;
+}
+
+.services-container p {
+  text-align: center;
+}
+.service-card:hover {
+  background: linear-gradient(45deg, #e9e2e2, #606470, #283d6d, #3e4c6e);
+  box-shadow: 0 4px 10px rgba(81, 78, 97, 0.507); /* Shadow effect on hover */
+}
+
+
+
+
+/* Original Navbar Styles */
+
+
+.navbar-logo {
+  height: 90px; /* Adjust the height as needed */
+}
+
+.navbar-title {
+  color: #f0e6d6; /* Soft gold */
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  flex-grow: 1; /* Allow title to take up available space */
+}
+
+
+
+@media (max-width: 414px) { /* iPhone 8 Plus and similar */
+  
+  .navbar {
+    padding: 0.2rem; /* Reduce padding */
+  }
+  
+  .image-container {
+    width: 100%; /* Full width of the viewport */
+    height: auto; /* Auto height to maintain aspect ratio */
+    overflow: hidden;
+    margin: 0 auto; /* Center the image container */
+  }
+
+  .image {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Scale image within the container */
+  }
+
+  .container {
+    padding: 15px; /* Adjust padding */
+  }
+
+  .service-card {
+    flex: 1 1 calc(50% - 10px); /* Two cards in a row */
+    margin: 5px; /* Reduce margin */
+  }
+
+  .cta-button {
+    width: 100%; /* Full width button */
+  }
+}
+
+
+/* Default styles for navbar */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem;
+  position: relative;
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-logo {
+  height: 50px;
+}
+
+/* Links are hidden on mobile initially */
+.navbar-links {
+  display: flex;
+  gap: 1rem;
+}
+
+.navbar-links li {
+  list-style: none;
+}
+
+/* Styles for the hamburger icon */
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+  font-size: 1.5rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .navbar-links {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 60px; /* Adjust to position below the navbar */
+      right: 0;
+      background-color: #333;
+      width: 100%;
+      text-align: center;
+      padding: 1rem 0;
+  }
+
+  .navbar-links.active {
+      display: flex;
+  }
+
+  .navbar-toggle {
+      display: block;
+  }
+}
+
+/* About.css */
+
+.about-container {
+  padding: 50px;
+  background-color: #faf3e0; /* Soft, elegant background */
+  color: #333;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-section {
+  margin-bottom: 40px;
+  border-bottom: 1px solid #c5b358; /* Gold-like border for a royal touch */
+  padding-bottom: 20px;
+}
+
+.about-section h2 {
+  font-family: 'Playfair Display', serif;
+  color: #8b5e34; /* Rich brown color */
+  font-weight: 500;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px; /* Slightly increase letter spacing for elegance */
+}
+
+.about-section p {
+  font-size: 16px;
+  line-height: 1.8; /* More line spacing for a cleaner look */
+  color: #444;
+}
+
+/* About.css */
+
+/* Royal Container */
+.about-container {
+  padding: 60px;
+  background-color: #f7f3e9; /* A soft cream background for elegance */
+  color: #2a2a2a;
+  font-family: 'Georgia', serif; /* A classic serif font for a royal feel */
+  line-height: 1.7;
+}
+
+/* Each Section Styling */
+.about-section {
+  margin-bottom: 50px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #d4af37; /* Luxurious gold line */
+  transition: transform 0.3s ease-in-out;
+}
+
+.about-section:hover {
+  transform: translateY(-5px); /* Smooth lift effect on hover */
+}
+.about-container h1{
+  text-align: center;
+  top: 0%;
+  color:  (45deg, #000000, #010205, #283d6d, #36456b);
+}
+.about-image {
+  width: 100px; /* Adjust as needed */
+  height: auto;
+ 
+  margin-right: 15px; /* Space between image and text */
+}
+/* Royal Section Titles */
+.about-section h2 {
+  font-family: 'Merriweather', serif; /* A sophisticated serif font */
+  color: #8b6a2a; /* Deep gold color */
+  font-weight: bold;
+  text-transform: capitalize;
+  letter-spacing: 1.5px; /* Elegant letter spacing */
+  margin-bottom: 20px;
+  border-left: 5px solid #d4af37; /* Gold accent line */
+  padding-left: 15px; /* Spacing for accent */
+}
+
+/* Elegant Paragraph Styling */
+.about-section p {
+  font-size: 18px;
+  color: #555555; /* Softer dark color for text */
+  margin: 0;
+  text-align: justify; /* Justify text for a clean look */
+}
+
+/* Button with a Regal Touch */
+button {
+  background-color: #8b6a2a; /* Rich gold background */
+  color: #fff;
+  border: none;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 25px; /* Rounded shape for luxury */
+  transition: background (0.4s, transform 0.3s);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Elegant shadow */
+}
+
+button:hover {
+  background-color: #725821; /* Darker gold on hover */
+  transform: translateY(-3px); /* Subtle lift on hover */
+}
+
+
+.about  {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+
+
+/* Hide the <p> tag initially */
+.about-section p {
+  opacity: 0;
+  transform: translateY(10px); /* Slide it up */
+  transition: opacity 0.3s ease, transform 0.3s ease; /* Smooth transition */
+  text-align: center;
+}
+
+/* On hover, lift the card and reveal the <p> tag */
+.about-section:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.about-section:hover p {
+  opacity: 1; /* Make it visible */
+  transform: translateY(0); /* Slide it into place */
+}
+.image.fade {
+  opacity: 0;
+  height: 1000px;
+  transition: opacity 0.1s ease-in-out;
+}
+.image.fade.active {
+  opacity: 1;
+}
+
+.image-container {
+  width: 100%; /* Full width for all screen sizes */
+  height: 4000px; /* Default height */
+  overflow: hidden; /* Ensures no overflow outside the container */
+  position: relative;
+}
+
+.image {
+
+  width: 1200px;
+  height: auto;
+  object-fit: cover;
+  object-Position: center ;/* Ensures image fills the container */
+}
+.animated-text {
+  font-size: 1.2em;
+  color: #555;
+}
+
+/* For small devices like iPhone (up to 480px width) */
+@media (max-width: 480px) {
+  .image-container {
+    height: 400px; /* Adjust image container height for small screens */
+  }
+
+  .welcome-text {
+    font-size: 1.5em; /* Smaller text for mobile */
+  }
+
+  .animated-text {
+    font-size: 1em; /* Smaller text for mobile */
+  }
+}
+
+/* For tablets (up to 768px width) */
+@media (max-width: 768px) {
+  .image-container {
+    height: 400px; /* Adjust image container height for tablets */
+  }
+
+  .welcome-text {
+    font-size: 1.8em; /* Adjust text size for tablets */
+  }
+
+  .animated-text {
+    font-size: 1.1em; /* Adjust text size for tablets */
+  }
+}
+
+/* For larger devices like laptops and PCs (1024px and above) */
+@media (min-width: 1024px) {
+  .image-container {
+    height: 500px; /* Adjust image container height for larger screens */
+  }
+
+  .welcome-text {
+    font-size: 2.5em; /* Larger text for larger screens */
+  }
+
+  .animated-text {
+    font-size: 1.3em; /* Larger text for larger screens */
+  }
+}
+
+
+
+
+
+
+.text-overlay {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  transform: translate(-50%, -50%);
+}
+
+.welcome-text {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color:  (45deg, #000000, #010205, #283d6d, #36456b);
+  margin-bottom: 10px;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+}
+
+.banner-text {
+  font-size: 1.5rem;
+  color: #000000;
+  animation: fadeIn 1.5s ease;
+}
+
+.fade {
+  animation: fadeAnimation 3s infinite;
+
+}
+
+@keyframes fadeAnimation {
+  0%, 100% { opacity: 0; }
+  50% { opacity: 1; }
+}
