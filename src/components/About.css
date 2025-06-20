@@ -1,0 +1,209 @@
+.about-section {
+  padding: 80px 0;
+  background: linear-gradient(to bottom, #000, #18181b);
+}
+.about-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.about-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.about-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.gradient-text {
+  background: linear-gradient(to right, #a78bfa, #f472b6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.about-desc {
+  font-size: 1.25rem;
+  color: #d1d5db;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+.about-stats {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 32px;
+  margin-bottom: 80px;
+}
+@media (min-width: 768px) {
+  .about-stats {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.about-stat-card {
+  background: rgba(31, 41, 55, 0.6);
+  border-radius: 24px;
+  padding: 32px;
+  transition: all 0.3s;
+  border: 1px solid #27272a;
+  box-shadow: 0 8px 32px rgba(80, 0, 120, 0.08);
+}
+.about-stat-card:hover {
+  background: rgba(31, 41, 55, 0.8);
+}
+.about-stat-icon {
+  padding: 16px;
+  border-radius: 16px;
+  width: fit-content;
+  margin: 0 auto 16px auto;
+  transition: transform 0.3s;
+}
+.about-stat-card:hover .about-stat-icon {
+  transform: scale(1.1);
+}
+.stat-icon-bg1 {
+  background: linear-gradient(to right, #a78bfa, #7c3aed);
+}
+.stat-icon-bg2 {
+  background: linear-gradient(to right, #a78bfa, #6d28d9);
+}
+.stat-icon-bg3 {
+  background: linear-gradient(to right, #7c3aed, #4c1d95);
+}
+.stat-icon-bg4 {
+  background: linear-gradient(to right, #c4b5fd, #a78bfa);
+}
+.about-stat-icon-inner {
+  color: #fff;
+}
+.about-stat-number {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 8px;
+  transition: color 0.3s;
+}
+.about-stat-card:hover .about-stat-number {
+  color: #a78bfa;
+}
+.about-stat-label {
+  color: #9ca3af;
+  font-weight: 500;
+}
+.about-story {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 64px;
+  align-items: center;
+  margin-bottom: 80px;
+}
+@media (min-width: 1024px) {
+  .about-story {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.about-story-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.about-story-desc {
+  color: #d1d5db;
+  margin-bottom: 24px;
+  line-height: 1.6;
+  font-size: 1.1rem;
+}
+.about-values {
+  margin-top: 24px;
+}
+.about-value {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+.about-value-dot {
+  width: 8px;
+  height: 8px;
+  background: linear-gradient(to right, #a78bfa, #f472b6);
+  border-radius: 50%;
+  margin-top: 12px;
+  transition: transform 0.3s;
+}
+.about-value:hover .about-value-dot {
+  transform: scale(1.5);
+}
+.about-value-title {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 4px;
+  transition: color 0.3s;
+}
+.about-value:hover .about-value-title {
+  color: #a78bfa;
+}
+.about-value-desc {
+  color: #9ca3af;
+  font-size: 0.95rem;
+  line-height: 1.5;
+}
+.about-story-img {
+  position: relative;
+}
+.about-story-img-bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to right, rgba(147,51,234,0.2), rgba(236,72,153,0.2));
+  border-radius: 24px;
+  filter: blur(32px);
+  z-index: 1;
+}
+.about-story-img-main {
+  position: relative;
+  border-radius: 24px;
+  box-shadow: 0 8px 32px rgba(80, 0, 120, 0.08);
+  width: 100%;
+  border: 1px solid #27272a;
+  z-index: 2;
+}
+.about-mission-vision {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+@media (min-width: 768px) {
+  .about-mission-vision {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+.about-mission-card {
+  background: rgba(31, 41, 55, 0.6);
+  border-radius: 24px;
+  padding: 32px;
+  transition: all 0.3s;
+  border: 1px solid #27272a;
+}
+.about-mission-card:hover {
+  background: rgba(31, 41, 55, 0.8);
+}
+.about-mission-icon {
+  background: linear-gradient(to right, #a78bfa, #7c3aed);
+  padding: 12px;
+  border-radius: 12px;
+  width: fit-content;
+  margin-bottom: 24px;
+}
+.about-mission-icon-inner {
+  color: #fff;
+}
+.about-mission-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 16px;
+}
+.about-mission-desc {
+  color: #d1d5db;
+  line-height: 1.6;
+}
