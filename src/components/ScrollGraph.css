@@ -1,0 +1,218 @@
+.scrollgraph-section {
+  padding: 80px 0;
+  background: linear-gradient(to bottom, #000, #18181b, #000);
+  overflow: hidden;
+}
+.scrollgraph-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 24px;
+}
+.scrollgraph-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.scrollgraph-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.gradient-text {
+  background: linear-gradient(to right, #a78bfa, #f472b6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.scrollgraph-desc {
+  font-size: 1.25rem;
+  color: #d1d5db;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+.scrollgraph-chart-wrap {
+  margin-bottom: 80px;
+}
+.scrollgraph-card {
+  background: rgba(31, 41, 55, 0.6);
+  border-radius: 24px;
+  padding: 48px 32px;
+  box-shadow: 0 8px 32px rgba(80, 0, 120, 0.08);
+  border: 1px solid #27272a;
+}
+.scrollgraph-chart-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 32px;
+  text-align: center;
+}
+.scrollgraph-chart {
+  position: relative;
+  height: 320px;
+  min-height: 320px;
+}
+@media (min-width: 1024px) {
+  .scrollgraph-chart {
+    height: 384px;
+    min-height: 384px;
+  }
+}
+.scrollgraph-yaxis {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #9ca3af;
+  font-size: 0.95rem;
+  z-index: 2;
+}
+.scrollgraph-bars-area {
+  margin-left: 48px;
+  height: 100%;
+  position: relative;
+}
+.scrollgraph-gridline {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  border-top: 1px solid #27272a;
+  z-index: 1;
+}
+.scrollgraph-bars {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 100%;
+  padding-top: 16px;
+  position: relative;
+  z-index: 2;
+}
+.scrollgraph-bar-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  max-width: 80px;
+}
+.scrollgraph-bar-wrap {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  width: 100%;
+  margin-bottom: 16px;
+  align-items: flex-end;
+  height: 100%;
+}
+.scrollgraph-bar-projects {
+  background: linear-gradient(to top, #a78bfa, #f472b6);
+  border-radius: 8px 8px 0 0;
+  width: 16px;
+  transition: height 1s;
+}
+.scrollgraph-bar-clients {
+  background: linear-gradient(to top, #7c3aed, #a78bfa);
+  border-radius: 8px 8px 0 0;
+  width: 16px;
+  transition: height 1s;
+}
+.scrollgraph-bar-year {
+  color: #9ca3af;
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+.scrollgraph-legend {
+  position: absolute;
+  left: 50%;
+  bottom: -48px;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 32px;
+  z-index: 3;
+}
+.scrollgraph-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.scrollgraph-legend-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+}
+.scrollgraph-legend-dot-projects {
+  background: linear-gradient(to right, #a78bfa, #f472b6);
+}
+.scrollgraph-legend-dot-clients {
+  background: linear-gradient(to right, #7c3aed, #a78bfa);
+}
+.scrollgraph-legend-label {
+  color: #d1d5db;
+  font-size: 1rem;
+}
+.scrollgraph-achievements {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+  margin-top: 32px;
+}
+@media (min-width: 768px) {
+  .scrollgraph-achievements {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media (min-width: 1024px) {
+  .scrollgraph-achievements {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+.scrollgraph-achievement-card {
+  background: rgba(31, 41, 55, 0.6);
+  border-radius: 20px;
+  padding: 32px;
+  text-align: center;
+  transition: background 0.3s, transform 0.5s, opacity 0.5s;
+  border: 1px solid #27272a;
+  box-shadow: 0 8px 32px rgba(80, 0, 120, 0.08);
+  opacity: 0;
+  transform: translateY(40px);
+}
+.scrollgraph-animate-fade-in {
+  opacity: 1;
+  transform: translateY(0);
+  animation: scrollgraph-fade-in 1s forwards;
+}
+@keyframes scrollgraph-fade-in {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.scrollgraph-achievement-icon-bg {
+  background: linear-gradient(to right, #a78bfa, #7c3aed);
+  padding: 12px;
+  border-radius: 12px;
+  width: fit-content;
+  margin: 0 auto 16px auto;
+}
+.scrollgraph-achievement-icon {
+  color: #fff;
+}
+.scrollgraph-achievement-value {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.scrollgraph-achievement-title {
+  color: #fff;
+  font-weight: 600;
+  margin-bottom: 8px;
+  font-size: 1.1rem;
+}
+.scrollgraph-achievement-desc {
+  color: #9ca3af;
+  font-size: 0.95rem;
+}

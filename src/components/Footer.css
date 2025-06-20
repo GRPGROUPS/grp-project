@@ -1,0 +1,209 @@
+.footer-section {
+  background: linear-gradient(to bottom, #000, #18181b);
+  border-top: 1px solid #27272a;
+}
+.footer-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 64px 24px 0 24px;
+}
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 32px;
+}
+@media (min-width: 768px) {
+  .footer-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (min-width: 1024px) {
+  .footer-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+.footer-company {
+  grid-column: span 1;
+}
+.footer-logo-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+.footer-logo-bg {
+  background: linear-gradient(to right, #a78bfa, #7c3aed);
+  padding: 8px;
+  border-radius: 12px;
+}
+.footer-logo-icon {
+  color: #fff;
+}
+.footer-logo-text {
+  font-size: 2rem;
+  font-weight: bold;
+}
+.footer-logo-main {
+  color: #fff;
+}
+.gradient-text {
+  background: linear-gradient(to right, #a78bfa, #f472b6);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.footer-company-desc {
+  color: #d1d5db;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+.footer-social-row {
+  display: flex;
+  gap: 16px;
+}
+.footer-social-btn {
+  background: #27272a;
+  padding: 12px;
+  border-radius: 12px;
+  transition: background 0.3s, transform 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-social-btn:hover {
+  background: #1f2937;
+  transform: scale(1.1);
+}
+.hover\:text-blue-400:hover { color: #60a5fa !important; }
+.hover\:text-sky-400:hover { color: #38bdf8 !important; }
+.hover\:text-blue-500:hover { color: #3b82f6 !important; }
+.hover\:text-gray-300:hover { color: #d1d5db !important; }
+.footer-heading {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #fff;
+  margin-bottom: 24px;
+}
+.footer-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.footer-link {
+  color: #9ca3af;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: color 0.3s;
+  font-size: 1rem;
+  text-decoration: none;
+  position: relative;
+}
+.footer-link:hover {
+  color: #a78bfa;
+}
+.footer-link-bar {
+  width: 0;
+  height: 3px;
+  background: linear-gradient(to right, #a78bfa, #f472b6);
+  margin-right: 0;
+  transition: width 0.3s, margin-right 0.3s;
+  display: inline-block;
+}
+.group:hover .footer-link-bar {
+  width: 16px;
+  margin-right: 8px;
+}
+.footer-contact-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.footer-contact-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.footer-contact-icon-bg {
+  background: linear-gradient(to right, #a78bfa, #7c3aed);
+  padding: 8px;
+  border-radius: 12px;
+  margin-right: 12px;
+  transition: transform 0.3s;
+}
+.footer-contact-icon-bg-mt {
+  margin-top: 4px;
+}
+.footer-contact-icon {
+  color: #fff;
+}
+.footer-contact-text {
+  color: #d1d5db;
+  transition: color 0.3s;
+  font-size: 1rem;
+}
+.group:hover .footer-contact-text {
+  color: #a78bfa;
+}
+.footer-bottom-bar {
+  border-top: 1px solid #27272a;
+  margin-top: 48px;
+}
+.footer-bottom-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+@media (min-width: 768px) {
+  .footer-bottom-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+.footer-bottom-left {
+  color: #9ca3af;
+  font-size: 0.95rem;
+}
+.footer-bottom-right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.footer-bottom-links {
+  display: flex;
+  gap: 24px;
+  font-size: 0.95rem;
+}
+.footer-bottom-link {
+  color: #9ca3af;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.footer-bottom-link:hover {
+  color: #a78bfa;
+}
+.footer-scrolltop-btn {
+  background: linear-gradient(to right, #a78bfa, #7c3aed);
+  padding: 8px;
+  border-radius: 12px;
+  border: none;
+  margin-left: 16px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-scrolltop-btn:hover {
+  background: linear-gradient(to right, #7c3aed, #a78bfa);
+  transform: scale(1.1);
+}
+.footer-scrolltop-icon {
+  color: #fff;
+}
